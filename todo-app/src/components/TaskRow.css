@@ -1,0 +1,59 @@
+.task-row {
+    transition: background-color 0.3s ease;
+}
+
+.task-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.task-row:hover {
+    background-color: #f8f9fa;
+}
+
+input[type="checkbox"] {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.custom-checkbox {
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    transition: border-color 0.3s ease;
+}
+
+.checkbox-icon.checked {
+    border-color: #2ad96a;
+}
+
+.ok-letter {
+    font-size: 16px;
+    color: #007bff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Add cursor: pointer on hover for the checkbox */
+.checkbox-icon:hover {
+    cursor: pointer;
+}
+
+.checkbox-icon.checked:hover {
+    cursor: pointer;
+}

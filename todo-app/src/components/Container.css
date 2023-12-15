@@ -1,0 +1,35 @@
+/* Container.css */
+.custom-container {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Additional styling for your container */
+  .custom-container {
+    /* Add any additional styling for your container */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(254, 254, 254, 0.1);
+    padding: 16px;
+    /* ... */
+  }
+  
+  .col-md-4 {
+    /* Add styling for the columns inside the container */
+  }
+  
+  /* Adjust as needed based on your design preferences */
+  /* Container.css */
+
+  
+  
+  
+  
+
+/* Add more styles if necessary */

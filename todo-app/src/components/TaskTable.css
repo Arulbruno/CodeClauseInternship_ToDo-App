@@ -1,0 +1,44 @@
+
+.task-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #495057;
+    border-radius: 8px;
+  }
+  
+  .table-header {
+    background-color: #007bff;
+  }
+  
+  .task-table tbody tr:hover {
+    background-color: #495057;
+  }
+  
+  .task-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #495057;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .task-table:hover {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  .table-header {
+    background-color: #007bff;
+  }
+  
+  .task-table tbody tr:hover {
+    background-color: #495057;
+  }
+  
